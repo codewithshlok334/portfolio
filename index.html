@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shlok Maurya — Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ── NAVBAR ─────────────────────────────────── -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#">SM<span class="dot">.</span></a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle" aria-label="Toggle theme">
+        <span class="icon-sun">☀</span>
+        <span class="icon-moon">☽</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- ── HERO ───────────────────────────────────── -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <p class="hero-greeting fade-up">Hello, I'm</p>
+      <h1 class="hero-name fade-up delay-1">Shlok<br><span>Maurya</span></h1>
+      <p class="hero-role fade-up delay-2"><span class="role-badge">Aspiring Software Developer</span></p>
+      <p class="hero-bio fade-up delay-3">
+        2nd-year B.Tech CS student passionate about building intelligent, scalable web solutions.<br>
+        Specializing in Python, Java &amp; AI/ML — turning ideas into working products.
+      </p>
+      <div class="hero-cta fade-up delay-4">
+        <a href="#projects" class="btn-primary">View My Work</a>
+        <a href="#contact" class="btn-ghost">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-terminal fade-up delay-3">
+      <div class="terminal-bar">
+        <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+        <span class="terminal-title">shlok@dev ~ </span>
+      </div>
+      <div class="terminal-body">
+        <p><span class="t-prompt">$</span> <span class="t-cmd">whoami</span></p>
+        <p class="t-out">shlok_maurya</p>
+        <p><span class="t-prompt">$</span> <span class="t-cmd">cat skills.txt</span></p>
+        <p class="t-out">Python · Java · C · HTML/CSS · JS</p>
+        <p class="t-out">AI/ML · MySQL · Git · Android</p>
+        <p><span class="t-prompt">$</span> <span class="t-cmd">echo $STATUS</span></p>
+        <p class="t-out t-green">Open to internships ✓</p>
+        <p class="t-cursor"><span class="t-prompt">$</span> <span class="cursor-blink">▌</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── OBJECTIVE ────────────────────────────────── -->
+  <section id="objective">
+    <div class="section-inner">
+      <div class="section-label">00 / objective</div>
+      <h2 class="section-title">Objective</h2>
+      <p class="hero-bio fade-up">
+        2nd-year B.Tech CS student seeking software development or data analytics internships. 
+        Passionate about AI/ML, building scalable web solutions, and turning ideas into impactful products.
+      </p>
+      <div style="height: 2rem;"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ──────────────────────────────────── -->
+  <section id="about">
+    <div class="section-inner">
+      <div class="section-label">01 / about</div>
+      <h2 class="section-title">About Me</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I'm a second-year B.Tech Computer Science student at AKTU, Uttar Pradesh, with a strong foundation in
+            Python, Java, and web technologies. I'm deeply curious about Artificial Intelligence and Machine Learning —
+            and I enjoy turning that curiosity into real projects.
+          </p>
+          <p>
+            Through virtual internships with <strong>Google</strong> and <strong>Deloitte</strong> (via EduSkills &amp; Forage),
+            I've gained hands-on experience in AI/ML model training, full-stack Python development, Android app development,
+            and data analytics.
+          </p>
+          <p>
+            I'm currently seeking a software development or data analytics internship where I can apply my skills,
+            contribute to real-world problems, and grow fast.
+          </p>
+          <div class="about-tags">
+            <span>Quick Learner</span>
+            <span>Problem Solver</span>
+            <span>Team Player</span>
+            <span>Data-Driven</span>
+            <span>Self-Motivated</span>
+          </div>
+        </div>
+        <div class="about-card">
+          <div class="info-row"><span class="info-label">Location</span><span>Bilgram, Hardoi, UP</span></div>
+          <div class="info-row"><span class="info-label">Degree</span><span>B.Tech CS/IT — AKTU</span></div>
+          <div class="info-row"><span class="info-label">Year</span><span>2023 – Present</span></div>
+          <div class="info-row"><span class="info-label">Class 12</span><span>CBSE — 77%</span></div>
+          <div class="info-row"><span class="info-label">Class 10</span><span>CBSE — 90%</span></div>
+          <div class="info-row"><span class="info-label">Email</span><span>pranshmaurya.810@gmail.com</span></div>
+          <div class="info-row"><span class="info-label">Status</span><span class="status-open">● Open to Intern</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ─────────────────────────────────── -->
+  <section id="skills">
+    <div class="section-inner">
+      <div class="section-label">02 / skills</div>
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Python</span><div class="bar"><div class="fill" style="--w:88%"></div></div><span class="pct">88%</span></div>
+            <div class="skill-bar"><span>Java</span><div class="bar"><div class="fill" style="--w:75%"></div></div><span class="pct">75%</span></div>
+            <div class="skill-bar"><span>C</span><div class="bar"><div class="fill" style="--w:65%"></div></div><span class="pct">65%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Web</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>HTML5 / CSS3</span><div class="bar"><div class="fill" style="--w:85%"></div></div><span class="pct">85%</span></div>
+            <div class="skill-bar"><span>JavaScript ES6+</span><div class="bar"><div class="fill" style="--w:72%"></div></div><span class="pct">72%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>AI / ML</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Scikit-learn</span><div class="bar"><div class="fill" style="--w:70%"></div></div><span class="pct">70%</span></div>
+            <div class="skill-bar"><span>Pandas / NumPy</span><div class="bar"><div class="fill" style="--w:75%"></div></div><span class="pct">75%</span></div>
+            <div class="skill-bar"><span>Matplotlib / Seaborn</span><div class="bar"><div class="fill" style="--w:68%"></div></div><span class="pct">68%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>DSA / CP</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>Data Structures</span><div class="bar"><div class="fill" style="--w:80%"></div></div><span class="pct">80%</span></div>
+            <div class="skill-bar"><span>Algorithms</span><div class="bar"><div class="fill" style="--w:78%"></div></div><span class="pct">78%</span></div>
+            <div class="skill-bar"><span>Problem Solving</span><div class="bar"><div class="fill" style="--w:82%"></div></div><span class="pct">82%</span></div>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools & DB</h3>
+          <div class="skill-bars">
+            <div class="skill-bar"><span>MySQL / SQL</span><div class="bar"><div class="fill" style="--w:78%"></div></div><span class="pct">78%</span></div>
+
+            <div class="skill-bar"><span>Git / VS Code</span><div class="bar"><div class="fill" style="--w:80%"></div></div><span class="pct">80%</span></div>
+            <div class="skill-bar"><span>Android Studio</span><div class="bar"><div class="fill" style="--w:60%"></div></div><span class="pct">60%</span></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="cert-row">
+        <h3 class="cert-heading">Certifications</h3>
+        <div class="certs">
+          <div class="cert-chip">Modern AI — Cisco</div>
+          <div class="cert-chip">AI-ML Virtual Internship — EduSkills</div>
+          <div class="cert-chip">Deloitte Data Analytics — Forage</div>
+          <div class="cert-chip">Google Android Developer — EduSkills</div>
+          <div class="cert-chip leetcode-cert"><a href="https://leetcode.com/hereshlok/" target="_blank" rel="noopener">Leetcode: 150+ Solved</a></div>
+        </div>
+</xai:function_call
+
+
+
+
+
+<xai:function_call name="edit_file">
+<parameter name="path">c:/Users/prans/Desktop/files/index.html
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PROJECTS ───────────────────────────────── -->
+  <section id="projects">
+    <div class="section-inner">
+      <div class="section-label">03 / projects</div>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-num">01</div>
+          <div class="project-top">
+            <h3>AIXS College Chatbot</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+              <a href="#" target="_blank" class="proj-link live">Live ↗</a>
+            </div>
+          </div>
+          <p>Desktop-based chatbot that retrieves college info (faculty, contacts, history) from a MySQL database. Features a responsive UI and end-to-end data flow with real-time query handling.</p>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>MySQL</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">02</div>
+          <div class="project-top">
+            <h3>College Marketplace</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+              <a href="#" target="_blank" class="proj-link live">Live ↗</a>
+            </div>
+          </div>
+          <p>A peer-to-peer marketplace web app for college students to buy and sell items. Includes product listings, search, and a clean responsive layout.</p>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">03</div>
+          <div class="project-top">
+            <h3>To-Do App</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+              <a href="#" target="_blank" class="proj-link live">Live ↗</a>
+            </div>
+          </div>
+          <p>A clean, minimal task manager with local storage persistence, priority tagging, and smooth UI animations. Mobile-first design.</p>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-num">04</div>
+          <div class="project-top">
+            <h3>Weather App</h3>
+            <div class="project-links">
+              <a href="#" target="_blank" class="proj-link">GitHub ↗</a>
+              <a href="#" target="_blank" class="proj-link live">Live ↗</a>
+            </div>
+          </div>
+          <p>Real-time weather application using OpenWeatherMap API. Shows current conditions, humidity, wind speed, and a 5-day forecast with dynamic icons.</p>
+          <div class="tech-stack">
+            <span>HTML</span><span>CSS</span><span>JavaScript</span><span>REST API</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────── -->
+  <section id="contact">
+    <div class="section-inner">
+      <div class="section-label">04 / contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-sub">I'm actively looking for internship opportunities. Whether you have a project, a question, or just want to say hi — my inbox is open.</p>
+      <div class="contact-grid">
+        <div class="contact-links">
+          <a href="mailto:pranshmaurya.810@gmail.com" class="contact-item">
+            <div class="contact-icon">✉</div>
+            <div>
+              <div class="contact-label">Email</div>
+              <div class="contact-value">pranshmaurya.810@gmail.com</div>
+            </div>
+          </a>
+          <a href="https://linkedin.com/in/shlok-maurya-31b889333" target="_blank" class="contact-item">
+            <div class="contact-icon">in</div>
+            <div>
+              <div class="contact-label">LinkedIn</div>
+              <div class="contact-value">shlok-maurya-31b889333</div>
+            </div>
+          </a>
+          <a href="https://github.com" target="_blank" class="contact-item">
+            <div class="contact-icon">&lt;/&gt;</div>
+            <div>
+              <div class="contact-label">GitHub</div>
+              <div class="contact-value">github.com/shlok-maurya</div>
+            </div>
+          </a>
+          <a href="tel:+919569613691" class="contact-item">
+            <div class="contact-icon">#</div>
+            <div>
+              <div class="contact-label">Phone</div>
+              <div class="contact-value">+91 9569613691</div>
+            </div>
+          </a>
+        </div>
+        <form class="contact-form" id="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea rows="5" placeholder="Your Message" required></textarea>
+          <button type="submit" class="btn-primary">Send Message →</button>
+          <p class="form-note" id="form-note"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ─────────────────────────────────── -->
+  <footer>
+    <div class="footer-inner">
+      <span>Built by <strong>Shlok Maurya</strong> · 2025</span>
+      <span>Open to internships · Kanpur, UP</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
